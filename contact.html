@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section id="header">
+        <img src="logo.png" height="95px" width="200px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="#"><i id="cart-icon" class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+            </div>
+            <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">Rs.00</div>
+            </div>
+            <button type="button" class="btn-buy">Proceed To CheckOut</button>
+            <i class="fa-solid fa-xmark" id="close-cart"></i>
+          </div>
+
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#LET'S TALK</h2>
+        <p>Let us know about your review</p>
+    </section>
+   
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit our shop or contact us</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa-regular fa-map"></i>
+                    <p>LYARI,KARACHI</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>Contact@example.com</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+92 345678909</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-clock"></i>
+                    <p>24 HOURS</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7239.138605211066!2d67.0057976393433!3d24.878555544922413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb315f52cd498b7%3A0x3071a88093faec21!2sHamara%20Lyari%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1692952172643!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>    
+
+    <section id="form-details">
+        <form id="form-detail">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We Love To Hear From You</h2>
+            <input type="text" placeholder="Your Name" id="name">
+            <input type="text" placeholder="E-mail" id="email">
+            <input type="text" placeholder="Subject" id="course">
+            <textarea name="" id="com" cols="30" rows="10" placeholder="Your Message"></textarea>
+             <button id="button" class="normal">Submit</button>
+        </form>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for More Updates</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="logo2.png" height="200px">
+            <br>
+            <h4>Contact</h4>
+            <p><strong>Phone: </strong>+92 345678909</p>
+            <p><strong>Hours: </strong>24 Hours</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Term & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Accounts</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Whishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="app.jpg">
+                <img src="play.jpg">
+            </div>
+            <p>Secured Paymet Gateways</p>
+            <img src="pay.png">
+        </div>
+        <div class="copyright">
+            <p>@ 2023, OFF MARKET - Online Shop</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
